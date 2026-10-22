@@ -68,7 +68,6 @@
             font-style: normal;
         }
 
-        /* Styles pour le Salve Regina */
         .stanza-container {
             margin-bottom: 25px;
             margin-top: 25px;
@@ -115,7 +114,6 @@
             text-align: center;
         }
 
-        /* Bloc contact */
         .contact-label {
             color: #ffffff;
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -133,7 +131,6 @@
             text-decoration: underline;
         }
 
-        /* Bandeau concerts */
         .concerts {
             margin-bottom: 20px;
         }
@@ -154,7 +151,6 @@
             text-align: left;
         }
 
-        /* Programme */
         .program {
             list-style: none;
             padding: 0;
@@ -183,7 +179,6 @@
             font-size: 0.9em;
         }
 
-        /* Slider */
         .slider {
             position: relative;
             width: 100%;
@@ -245,6 +240,27 @@
 
         .dot.active { background-color: #00aed1; }
 
+        /* Bloc notification */
+        .notification {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-left: 3px solid #00aed1;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 25px;
+            font-size: 0.95em;
+            color: #e0e0e0;
+        }
+
+        .notification a {
+            color: #00aed1;
+            text-decoration: none;
+        }
+
+        .notification a:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 400px) {
             body { font-size: 16px; padding: 15px; }
             h1 { font-size: 1.2rem; }
@@ -261,6 +277,11 @@
             <div class="concerts-title">Le Bocage Lyrique en concert</div>
             <p class="concerts-item">La Lande-de-Goult, Chapelle Saint-Pierre – le samedi 24 octobre à 17h</p>
             <p class="concerts-item">La Ferté-Macé, Église Notre-Dame – le dimanche 25 octobre à 17h</p>
+        </div>
+
+        <!-- Bloc notification -->
+        <div class="notification">
+            Vous souhaitez être tenus au courant des prochains concerts ? Envoyez-nous un email à l'adresse <a href="mailto:contact@le-bocage-lyrique.fr">contact@le-bocage-lyrique.fr</a> ou contactez-nous via <a href="https://www.facebook.com/LeBocageLyrique" target="_blank" rel="noopener">Facebook</a>.
         </div>
 
         <!-- Slider -->
